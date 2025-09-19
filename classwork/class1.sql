@@ -12,3 +12,9 @@ VALUES ('1','Alfred','21','computer science','67'),
 ('4','Suresh','32','computer science','93');
 
 SELECT * FROM students WHERE age > 20;
+
+SELECT * FROM students WHERE department = 'computer science';
+
+SELECT * FROM students WHERE grade = 90;
+
+SELECT * FROM students WHERE grade BETWEEN 70 AND 90;
