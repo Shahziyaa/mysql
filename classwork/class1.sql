@@ -1,3 +1,9 @@
+CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name varchar (50) not null,
+    age INT,
+    department varchar (50) not null,grade INT)
+
 
 INSERT INTO students (id,name, age,department,grade) 
 VALUES ('1','Alfred','21','computer science','67'),
