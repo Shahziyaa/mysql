@@ -14,3 +14,16 @@ VALUES
 (4, 'Joker', 'Drama', 2019, 8.4, 1074),
 (5, 'Dunkirk', 'War', 2017, 7.9, 527);
 
+SELECT title, box_office AS Earnings (in Cr) FROM movies;
+
+SELECT title AS Movie Title, genre AS Category FROM movies;
+
+SELECT title, rating AS "IMDB Rating" FROM  movies
+where genre IN ('Sci-Fi', 'Action');
+
+SELECT title, release_year AS "Release" FROM movies
+WHERE release_year BETWEEN 2008 AND 2015;
+
+
+SELECT COUNT(*) AS "high rated movies" FROM movies
+WHERE rating > 8.5;
