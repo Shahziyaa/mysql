@@ -36,3 +36,4 @@ WHERE borrowers.book_id IS NULL;
 
 SELECT borrowers.name, borrowers.borrower_id,books.title
 FROM borrowers LEFT JOIN books ON borrowers.book_id = books.book_id;
+
