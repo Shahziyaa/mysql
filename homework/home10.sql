@@ -12,3 +12,4 @@ CREATE TABLE books(
     FOREIGN KEY (authorid) REFERENCES authors(authorid),
     UNIQUE (bookid)
 )
+
